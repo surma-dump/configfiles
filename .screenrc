@@ -1,18 +1,15 @@
 autodetach on
 startup_message off 
 bind \033 screen -ln -t root sudo su -
-bind j next
-bind k prev
+bind l next
+bind h prev
 bind q quit
 vbell on
 ignorecase on
 hardstatus on
-screen -ln -t gen
-screen -ln -t gen
-screen -ln -t gen
-screen -ln -t gen
-screen -ln -t im
 screen -ln -t htop htop
-select 0
+screen -ln -t im
+screen -ln -t shell
+select 3
 hardstatus alwayslastline 
 hardstatus string "%{= kw}%d.%m %c %{= kR}@%H%{-} %50= [%-=%{= kg}%-w%50L>%{=b kG}%n %t%{= kg}%+w %{= kw}%-=]%<"
