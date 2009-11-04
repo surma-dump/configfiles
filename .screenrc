@@ -1,0 +1,10 @@
+autodetach on
+bind \033 screen -ln -t root sudo su -
+bind j next
+bind k prev
+bind q quit
+vbell on
+ignorecase on
+hardstatus on
+hardstatus alwayslastline 
+hardstatus string "%{= kw}%d.%m %c - [ %{= kg}%-w%50L>%{= kG}%n %t%{= kg}%+w %{= kw}]%< "
