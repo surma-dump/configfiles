@@ -7,5 +7,12 @@ bind q quit
 vbell on
 ignorecase on
 hardstatus on
+screen -ln -t gen
+screen -ln -t gen
+screen -ln -t gen
+screen -ln -t gen
+screen -ln -t im
+screen -ln -t htop htop
+select 0
 hardstatus alwayslastline 
 hardstatus string "%{= kw}%d.%m %c %{= kR}@%H%{-} %50= [%-=%{= kg}%-w%50L>%{=b kG}%n %t%{= kg}%+w %{= kw}%-=]%<"
