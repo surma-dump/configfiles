@@ -1,6 +1,6 @@
 autodetach on
 startup_message off 
-bind \033 screen -ln -t root sudo su -
+bind s screen -ln -t root sudo su -
 bind l next
 bind h prev
 bind q quit
