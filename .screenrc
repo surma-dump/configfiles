@@ -4,6 +4,16 @@ bind s screen -ln -t root sudo su -
 bind l next
 bind h prev
 bind q quit
+bind ^0 number 0
+bind ^1 number 1
+bind ^2 number 2
+bind ^3 number 3
+bind ^4 number 4
+bind ^5 number 5
+bind ^6 number 6
+bind ^7 number 7
+bind ^8 number 8
+bind ^9 number 9
 vbell on
 ignorecase on
 hardstatus on
