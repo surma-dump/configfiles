@@ -1,25 +1,26 @@
 autodetach on
 startup_message off 
-bind s screen -ln -t root sudo su -
+bind S screen -ln -t root sudo su -
 bind l next
 bind h prev
 bind q quit
-bind ^0 number 0
-bind ^1 number 1
-bind ^2 number 2
-bind ^3 number 3
-bind ^4 number 4
-bind ^5 number 5
-bind ^6 number 6
-bind ^7 number 7
-bind ^8 number 8
-bind ^9 number 9
+bind s command -c num
+bind -c num 0 number 0
+bind -c num 1 number 1
+bind -c num 2 number 2
+bind -c num 3 number 3
+bind -c num 4 number 4
+bind -c num 5 number 5
+bind -c num 6 number 6
+bind -c num 7 number 7
+bind -c num 8 number 8
+bind -c num 9 number 9
 vbell on
 ignorecase on
 hardstatus on
 screen -ln -t htop htop
-screen -ln -t im
-screen -ln -t shell
+#screen -ln -t im
+#screen -ln -t shell
 select 3
 shelltitle shell
 hardstatus alwayslastline 
