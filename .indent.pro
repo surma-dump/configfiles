@@ -1,0 +1,1 @@
+-bad -bbb -sob -br -ce -cdw -saf -sai -saw -brs -brf -i8 -lp -ts8 -ppi3 -l78 -npsl -fca -c50 -nprs -bap -npcs
