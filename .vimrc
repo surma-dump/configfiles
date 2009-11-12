@@ -31,6 +31,7 @@ map <F4>r :! DISPLAY=:0 xpdf %<.pdf<CR>
 " Generic Make MAPS
 map <F5>c :! make all<CR>
 map <F5>r :! make run<CR>
+map <F5>g :! make gdb<CR>
 map <F5>C :! make clean<CR>
 
 " UNIVERSAL
