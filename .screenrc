@@ -19,6 +19,7 @@ vbell on
 ignorecase on
 hardstatus on
 screen -ln -t htop htop
+screen -ln -t sound alsamixer
 #screen -ln -t im
 #screen -ln -t shell
 select 3
