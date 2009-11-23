@@ -26,13 +26,13 @@ map! bW while [ ] ; do<Esc>o<Esc>odone<Esc>2kf[a
 map <F4>d :norm 0i%<CR>
 map <F4>D :norm 0x<CR>
 map <F4>c :! pdflatex %<CR>
-map <F4>r :! DISPLAY=:0 xpdf %<.pdf<CR>
+map <F4>r :! DISPLAY=:0 xpdf %<.pdf<CR><CR>
 
 " Generic Make MAPS
 map <F5>c :! make all<CR>
 map <F5>r :! make run<CR>
 map <F5>g :! make gdb<CR>
-map <F5>C :! make clean<CR>
+map <F5>C :! make clean<CR><CR>
 
 " UNIVERSAL
 map! <C-B> {<Esc>o}<Esc>O
