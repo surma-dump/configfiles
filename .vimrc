@@ -34,6 +34,10 @@ map <F5>r :! make run<CR>
 map <F5>g :! make gdb<CR>
 map <F5>C :! make clean<CR><CR>
 
+" ASM Maps
+map <F6>d :norm 0i;<CR>
+map <F6>D :norm 0x;<CR>
+
 " UNIVERSAL
 map! <C-B> {<Esc>o}<Esc>O
 map  dD :%d<CR>
