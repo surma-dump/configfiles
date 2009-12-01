@@ -1,0 +1,8 @@
+StrictHostKeyChecking yes
+Host	192.168.0.*
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+# Server
+Host 78.46.90.136 
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
