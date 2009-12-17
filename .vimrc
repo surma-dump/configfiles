@@ -21,15 +21,20 @@ map <F2>a :norm 0i;<CR>
 map <F2>A :norm 0x;<CR>
 
 " Generic Make maps
-map <F5>c :! make all<CR>
-map <F5>r :! make run<CR>
-map <F5>g :! make gdb<CR>
-map <F5>C :! make clean<CR><CR>
+map <F5>c :w<CR>:! make all<CR>
+map <F5>r :w<CR>:! make run<CR>
+map <F5>g :w<CR>:! make gdb<CR>
+map <F5>C :w<CR>:! make clean<CR><CR>
+
+" Latex maps
+map <F4>c :! pdflatex %<CR>
+map <F4>r :! xpdf %<.pdf<CR>
 
 " git maps
-map <F4>d :! git diff  --color<CR>
-map <F4>a :! git add -i<CR>
-map <F4>c :! git commit -v<CR>
+map <F3>d :w<CR>:! git diff  --color<CR>
+map <F3>a :w<CR>:! git add -i<CR>
+map <F3>C :w<CR>:! git commit -v<CR>
+map <F3>c :w<CR>:! git add -i<CR>:! git commit -v<CR>
 
 " universal
 map! <C-B> {<Esc>o}<Esc>O
