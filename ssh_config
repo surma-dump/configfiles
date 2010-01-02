@@ -3,16 +3,13 @@ Host	192.168.0.*
 	UserKnownHostsFile /dev/null
 # Server
 Host 78.46.90.136 
-	StrictHostKeyChecking no
-	UserKnownHostsFile /dev/null
+	StrictHostKeyChecking yes
 Host 78.46.90.151
-	StrictHostKeyChecking no
-	UserKnownHostsFile /dev/null
+	StrictHostKeyChecking yes
 Host 78.46.90.152 
-	StrictHostKeyChecking no
-	UserKnownHostsFile /dev/null
+	StrictHostKeyChecking yes
 Host 78.46.90.153 
-	StrictHostKeyChecking no
-	UserKnownHostsFile /dev/null
+	StrictHostKeyChecking yes
 Host *
 	StrictHostKeyChecking ask
+	UserKnownHostsFile /dev/null
