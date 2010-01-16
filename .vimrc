@@ -27,8 +27,8 @@ map <F5>g :w<CR>:! make gdb<CR>
 map <F5>C :w<CR>:! make clean<CR><CR>
 
 " Latex maps
-map <F4>c :w<CR>:! pdflatex %<CR>
-map <F4>r :w<CR>:! xpdf %<.pdf<CR>
+map <F4>c :w<CR>:! latex %<CR>
+map <F4>r :w<CR>:! dvips -Ppdf -G0 %<.dvi<CR><CR>:!ps2pdf %<.ps<CR><CR>:! xpdf %<.pdf<CR>
 
 " git maps
 map <F3>d :w<CR>:! git diff  --color<CR>
