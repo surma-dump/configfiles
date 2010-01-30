@@ -1,3 +1,5 @@
+XTerm*background: black
+XTerm*foreground: white
 UXTerm*background: black
 UXTerm*foreground: white
 *Rxvt*background: black
