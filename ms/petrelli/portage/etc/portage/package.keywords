@@ -1,0 +1,3 @@
+app-emulation/xen ~amd64
+app-emulation/xen-tools ~amd64
+sys-kernel/xen-sources ~amd64
