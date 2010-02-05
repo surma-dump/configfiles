@@ -19,6 +19,8 @@ map <F2>l :norm 0i%<CR>
 map <F2>L :norm 0x<CR>
 map <F2>a :norm 0i;<CR>
 map <F2>A :norm 0x;<CR>
+map <F2>h :norm 0i--<CR>
+map <F2>H :norm 0xx<CR>
 
 " Generic Make maps
 map <F5>c :w<CR>:! make all<CR>
