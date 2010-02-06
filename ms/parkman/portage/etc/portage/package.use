@@ -1,0 +1,8 @@
+app-emulation/qemu -alsa -bluetooth gnutls ncurses sdl -esd -kqemu -kvm -pulseaudio -vde
+net-im/pidgin gtk gnome
+gnome-base/gvfs gnome
+net-libs/libsoup gnome
+media-sound/ncmpc -help-screen nls -artist-screen colors -debug -key-screen -lyrics-screen -mouse -search-screen song-screen 
+dev-util/git perl
+net-analyzer/wireshark gtk
+app-text/acroread nsplugin

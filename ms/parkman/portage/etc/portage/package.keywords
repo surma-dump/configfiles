@@ -1,0 +1,13 @@
+www-client/mozilla-firefox ~x86
+net-libs/xulrunner ~x86
+www-client/uzbl ~x86
+app-emulation/qemu ~x86
+sys-boot/grub ~x86
+net-libs/webkit-gtk ~x86
+net-libs/libsoup ~x86
+dev-libs/glib ~x86
+net-libs/libsoup-gnome ~x86
+app-misc/dvtm ~x86
+sci-electronics/ghdl ~x86
+#dev-python/processing ~x86
+#dev-lang/python ~x86
