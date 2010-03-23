@@ -23,7 +23,7 @@ map <F2>h :norm 0i--<CR>
 map <F2>H :norm 0xx<CR>
 
 " Generic Make maps
-map <F5>c :w<CR>:! make all<CR>
+map <F5>c :w<CR>:! make<CR>
 map <F5>r :w<CR>:! make run<CR>
 map <F5>g :w<CR>:! make gdb<CR>
 map <F5>C :w<CR>:! make clean<CR><CR>
