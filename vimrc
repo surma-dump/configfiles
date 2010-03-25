@@ -35,13 +35,16 @@ map <F4>r :w<CR>:! dvips -Ppdf -G0 %<.dvi<CR><CR>:!ps2pdf %<.ps<CR><CR>:! xpdf %
 " git maps
 map <F3>d :w<CR>:! git diff  --color<CR>
 map <F3>a :w<CR>:! git add -i<CR>
-map <F3>C :w<CR>:! git commit -v<CR>
+map <F3>C :w<CR>:! git add -i<CR>:! git commit -v --amend<CR>
 map <F3>c :w<CR>:! git add -i<CR>:! git commit -v<CR>
+map <F3>p :w<CR>:! git push<CR>
+map <F3>p :w<CR>:! git push -f<CR>
 
 " universal
 map! <C-B> {<Esc>o}<Esc>O
 map  dD :%d<CR>
 map  Dd :.,$d<CR>
+map  <C-G> :noh<CR>
 
 " Copyright 2009 The Go Authors. All rights reserved.
 " Use of this source code is governed by a BSD-style
