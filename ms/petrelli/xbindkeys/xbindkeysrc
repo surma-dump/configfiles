@@ -6,3 +6,11 @@
 
 "mpc toggle"
 	Mod4 + v
+"mpc volume +5"
+	Mod4 + c:114
+"mpc volume -5"
+	Mod4 + c:113
+"mpc next"
+	Mod4 + c:116
+"mpc prev"
+	Mod4 + c:111

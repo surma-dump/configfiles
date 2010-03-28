@@ -3,3 +3,4 @@
 	name = Alexander Surma
 [core]
 	autocrlf = input
+	editor = vim
