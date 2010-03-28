@@ -45,6 +45,10 @@ map! <C-B> {<Esc>o}<Esc>O
 map  dD :%d<CR>
 map  Dd :.,$d<CR>
 map  <C-G> :noh<CR>
+map  <C-L>0 :set nonu<CR>
+map  <C-L>1 :set nu<CR>
+map  <C-I>0 :set nopaste<CR>
+map  <C-I>1 :set paste<CR>
 
 " Copyright 2009 The Go Authors. All rights reserved.
 " Use of this source code is governed by a BSD-style
