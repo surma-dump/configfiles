@@ -16,6 +16,7 @@ bind -c num 7 number 7
 bind -c num 8 number 8
 bind -c num 9 number 9
 vbell on
+scrollback 1000
 ignorecase on
 hardstatus on
 screen -ln -t htop htop
