@@ -50,6 +50,9 @@ map  <C-L>1 :set nu<CR>
 map  <C-I>0 :set nopaste<CR>
 map  <C-I>1 :set paste<CR>
 
+" go maps
+map <F6>f :%!gofmt<CR>
+
 " Copyright 2009 The Go Authors. All rights reserved.
 " Use of this source code is governed by a BSD-style
 " license that can be found in the LICENSE file.
