@@ -4,3 +4,5 @@ UXTerm*background: black
 UXTerm*foreground: white
 *Rxvt*background: black
 *Rxvt*foreground: white
+Xft.dpi: 96
+XTerm*font: 14px
