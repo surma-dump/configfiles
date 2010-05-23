@@ -23,7 +23,7 @@ map <F2>h :norm 0i--<CR>
 map <F2>H :norm 0xx<CR>
 
 " Generic Make maps
-map <F5>c :w<CR>:! make all<CR>
+map <F5>c :w<CR>:! make<CR>
 map <F5>r :w<CR>:! make run<CR>
 map <F5>g :w<CR>:! make gdb<CR>
 map <F5>C :w<CR>:! make clean<CR><CR>
@@ -35,13 +35,23 @@ map <F4>r :w<CR>:! dvips -Ppdf -G0 %<.dvi<CR><CR>:!ps2pdf %<.ps<CR><CR>:! xpdf %
 " git maps
 map <F3>d :w<CR>:! git diff  --color<CR>
 map <F3>a :w<CR>:! git add -i<CR>
-map <F3>C :w<CR>:! git commit -v<CR>
+map <F3>C :w<CR>:! git add -i<CR>:! git commit -v --amend<CR>
 map <F3>c :w<CR>:! git add -i<CR>:! git commit -v<CR>
+map <F3>p :w<CR>:! git push<CR>
+map <F3>p :w<CR>:! git push -f<CR>
 
 " universal
 map! <C-B> {<Esc>o}<Esc>O
 map  dD :%d<CR>
 map  Dd :.,$d<CR>
+map  <C-G> :noh<CR>
+map  <C-L>0 :set nonu<CR>
+map  <C-L>1 :set nu<CR>
+map  <C-I>0 :set nopaste<CR>
+map  <C-I>1 :set paste<CR>
+
+" go maps
+map <F6>f :%!gofmt<CR>
 
 " Copyright 2009 The Go Authors. All rights reserved.
 " Use of this source code is governed by a BSD-style
