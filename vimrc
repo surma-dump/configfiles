@@ -11,16 +11,16 @@ set shiftwidth=8
 set tabstop=8
 
 " Comment maps
-map <F2>c :norm 0i//<CR>
-map <F2>C :norm 0xx<CR>
-map <F2>b :norm 0i#<CR>
-map <F2>B :norm 0x<CR>
-map <F2>l :norm 0i%<CR>
-map <F2>L :norm 0x<CR>
-map <F2>a :norm 0i;<CR>
-map <F2>A :norm 0x;<CR>
-map <F2>h :norm 0i--<CR>
-map <F2>H :norm 0xx<CR>
+map <F2>c :norm I//<CR>
+map <F2>C :norm ^xx<CR>
+map <F2>b :norm I#<CR>
+map <F2>B :norm ^x<CR>
+map <F2>l :norm I%<CR>
+map <F2>L :norm ^x<CR>
+map <F2>a :norm I;<CR>
+map <F2>A :norm ^x;<CR>
+map <F2>h :norm I--<CR>
+map <F2>H :norm ^xx<CR>
 
 " Generic Make maps
 map <F5>c :w<CR>:! make<CR>
