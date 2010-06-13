@@ -6,7 +6,7 @@ Host 192.168.*
 	ForwardX11Trusted yes
 
 Host 78762.de 78.46.90.15[1-3] 78.46.90.136
-	StrictHostKeyChecking yes
+	StrictHostKeyChecking ask
 	UserKnownHostsFile ~/.ssh/known_hosts
 
 Host drebesium.org 80.237.160.229
